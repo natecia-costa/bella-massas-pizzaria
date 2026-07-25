@@ -2,6 +2,10 @@
 
 Projeto desenvolvido utilizando React para praticar conceitos de componentes, organização de código e construção de interfaces.
 
+## Preview
+
+![Bella Massas](./screenshots/preview-bella-massas.png)
+
 ## Funcionalidades
 
 - Página inicial
@@ -22,6 +26,3 @@ npm install
 
 npm run dev
 ```
-## Preview
-
-![Bella Massas](./preview-bella-massas.png)
