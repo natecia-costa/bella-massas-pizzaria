@@ -1,23 +1,27 @@
-# Bella Massa 🍕
+# 🍕 Bella Massas
 
-Projeto desenvolvido durante meus estudos de React.
+Projeto desenvolvido utilizando React para praticar conceitos de componentes, organização de código e construção de interfaces.
+
+## Funcionalidades
+
+- Página inicial
+- Cardápio
+- Layout responsivo
 
 ## Tecnologias
 
 - React
 - JavaScript
-- CSS
-- Vite
+- CSS3
+- HTML5
 
-## Funcionalidades
+## Como executar
 
-- Exibição dinâmica do cardápio
-- Lista de bebidas
-- Componentização
-- Props
-- useState
-- map()
+```bash
+npm install
 
-## Objetivo
+npm run dev
+```
+## Preview
 
-Praticar os fundamentos do React através da criação de uma página para uma pizzaria fictícia.
+![Bella Massas](./preview-bella-massas.png)
