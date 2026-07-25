@@ -21,3 +21,6 @@ Projeto desenvolvido durante meus estudos de React.
 ## Objetivo
 
 Praticar os fundamentos do React através da criação de uma página para uma pizzaria fictícia.
+
+## Desenvolvido por
+Natécia Costa
