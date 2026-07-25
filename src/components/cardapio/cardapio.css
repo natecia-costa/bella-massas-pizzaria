@@ -1,0 +1,48 @@
+main {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+main button {
+    height: 32px;
+    width: 150px;
+    padding: 8px;
+    border: none;
+    background-color: rgba(196, 148, 58, 0.849);
+    border-radius: 10px;
+    font-weight: bold;
+    box-shadow: 1px 1px 3px black;
+}
+main button:hover {
+    height: 34px;
+    width: 152px;
+}
+span {
+    font-weight: bold;
+    color: rgb(49, 190, 49);
+}
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 25px;
+}
+section img {
+    height: 300px;
+    width: 270px;
+}
+.card {
+    background-color: rgba(211, 211, 211, 0.267);
+    padding: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 1px 1px 2px ;
+    margin: 5px 0;
+}
+@media screen and (min-width: 940px) {
+    section {
+        margin: 0 150px;
+    }
+}
