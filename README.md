@@ -24,4 +24,4 @@ npm run dev
 ```
 ## Preview
 
-![Bella Massas](./preview-bella-massas.png)
+![Bella Massas](.screenshots//preview-bella-massas.png)
