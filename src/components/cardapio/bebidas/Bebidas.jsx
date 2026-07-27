@@ -11,7 +11,7 @@ export default function Bebidas() {
     const [mostrar, setMostrar] = useState(false)
     return (
         <>
-            <button onClick={() => setMostrar(true)}>Mostrar Bebidas</button>
+            <button onClick={() => setMostrar(!mostrar)}>{!mostrar ? "Mostrar Bebidas" : "Ocultar Bebidas"}</button>
                 {mostrar && bebidas.map((item) => (
                     <ItemBebidas key={item.id} nome={item.nome} preco={item.preco} />
                 ))}

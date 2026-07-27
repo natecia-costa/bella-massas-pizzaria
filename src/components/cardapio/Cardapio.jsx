@@ -38,7 +38,7 @@ export default function Cardapio() {
         <h3>Na Bella Massa, cada pizza é preparada com ingredientes selecionados, massa artesanal e muito carinho para transformar qualquer momento em uma experiência deliciosa.</h3>
         <img src={pizzaria} alt="Pizzaria" />
       </section>
-      <button onClick={() => setMostrar(true)}>Mostrar Cardápio</button>
+      <button onClick={() => setMostrar(!mostrar)}>{!mostrar ? "Mostrar Cardápio" : "Ocultar Cardápio"}</button>
             {mostrar && pizzas.map((item) => (
                 <Pizza key={item.id} nome={item.nome} descricao={item.descricao} preco={item.preco} />
             ))}
