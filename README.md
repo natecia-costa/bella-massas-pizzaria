@@ -1,5 +1,7 @@
 # 🍕 Bella Massas
 
+🔗 **Projeto online:** [Clique aqui para acessar](https://bella-massas-pizzaria.vercel.app/)
+
 Projeto desenvolvido utilizando React para praticar conceitos de componentes, organização de código e construção de interfaces.
 
 ## Preview
@@ -26,3 +28,7 @@ npm install
 
 npm run dev
 ```
+
+## 👩‍💻 Desenvolvido por
+
+Natécia Costa
