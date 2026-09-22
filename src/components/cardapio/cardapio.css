@@ -4,6 +4,9 @@ main {
     flex-direction: column;
     gap: 10px;
 }
+main h3 {
+    font-size: 15px;
+}
 main button {
     height: 32px;
     width: 150px;
